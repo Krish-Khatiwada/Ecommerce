@@ -114,6 +114,10 @@ main {
     transform: translateY(-5px);
 } */
 
+#cart {
+    text-align: center;
+}
+
 
 footer {
     background-color: #800080;
