@@ -21,6 +21,7 @@ header nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    cursor: pointer;
 }
 
 header nav ul li {
@@ -82,13 +83,13 @@ main {
 
 .ourProducts p {
     font-size: 1.1em;
-    color: #555;
+    color: red;
     margin-bottom: 10px;
 }
 
 #overline {
     text-decoration: line-through;
-    color: red;
+    color: #555;
 }
 
 .ourProducts button.cart {
@@ -127,5 +128,3 @@ footer {
     justify-content: space-around;
     align-items: flex-end;
 }
-
-
