@@ -10,13 +10,16 @@ body {
     color: #000000;
 }
 
-
-header {
+.navbar {
     background-color: #800080;
     color: #ffffff;
     Padding: 25px;
     display: flex;
     justify-content: space-around;
+    /* width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px; */
 }
 
 header nav ul {
@@ -68,7 +71,7 @@ main {
     box-shadow: 0 4px 10px #0000001a;
     padding: 20px;
     text-align: center;
-    /* transition: transform 0.3s ease-in-out; */
+    transition: transform 0.3s ease-in-out;
 }
 
 .ourProducts img {
@@ -112,9 +115,9 @@ main {
 }
 
 
-/* .ourProducts:hover {
+.ourProducts:hover {
     transform: translateY(-5px);
-} */
+}
 
 #cart {
     text-align: center;
